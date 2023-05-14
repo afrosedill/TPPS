@@ -1,46 +1,21 @@
-# LobiPanel
-jQuery plugin for bootstrap panels. It extends panels with several common and useful functions.
+DataTables Plugins
+==================
 
-[View Demo](http://lobianijs.com/site/lobipanel)
+This repository contains a collection of plug-ins for the jQuery [DataTables](http://datatables.net) table enhancer. These plug-ins are feature enhancing for the DataTables library, adding extra options to core functionality such as additional sort algorithms, API methods and pagination controls. The plug-ins should not be confused with DataTables "extras" which are more significant software libraries which add additional features to DataTables.
 
-### Features
+This repository holds the following plug-in types for DataTables:
 
-- Sort, drag, expand, resize, minimize bootstrap panels
-- Specify url and load content in panel from this url
-- Change the name of the panel
-- Customize action icons and action tooltips
-- Works for nested panels
-- HTML5 localStorage support
-    - Save panel state: (pinned, unpinned, collapsed, fullscreen, minimized) and apply it on page load
-    - Save panel position among siblings and apply on next time
+* Sorting
+  * Type based
+  * Custom data source based
+* API 
+* Filtering
+  * Type based
+  * Row based
+* Internationalisation translations
+* Type detection
+* Pagination
+* Integration scripts
+  * Twitter Bootstrap
 
-### Installation and dependecies
-
-LobiPanel is depended on jQuery, jQuery ui and bootstrap.
-
-#### 1. Include necessary css/js files
-
-```html
-<!DOCTYPE html>
-<html>
-   <head>
-      <!--Include this css file in the <head> tag -->
-      <link rel="stylesheet" href="lib/jquery-ui.min.css"/>
-      <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"/>
-      <link rel="stylesheet" href="dist/css/lobipanel.min.css"/>
-   </head>
-
-   <body>
-      ...
-      <!--Include these script files in the <head> or <body> tag-->
-      <script src="lib/jquery.1.11.min.js"></script>
-      <script src="lib/jquery-ui.min.js"></script>
-      <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-      <script src="dist/js/lobipanel.min.js"></script>
-   </body>
-</html>
-```
-
-#### 2. Initialize plugin and use it
-
-### For documentation and examples visit the plugin's [home page](http://lobianijs.com/site/lobipanel)
+Each directory has an index.html file which is used to generate the plug-ins documentation on [DataTables.net](http://datatables.net/plug-ins) and describes how plug-ins can be used.
